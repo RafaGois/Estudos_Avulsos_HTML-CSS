@@ -1,0 +1,14 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    background-color: aqua;
+    border-radius: 100px 20px;
+    display: inline-block;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}

@@ -1,0 +1,18 @@
+blockquote {
+    visibility: visible;
+    /* Os valores podem ser hidden(Mantém a estrutura mas não aparece) e visible(aparece) */
+}
+
+h3, blockquote, p {
+    display: block;
+    /* Duas opções inline(faz com que o elemento não quebre a linha ou crie uma linha nova) e block(faz com que o elemento quebre a linha ou crie uma linha nova). */
+
+    /* Os elementos por padrão possuem o inline ou o block, mas podemos muda-los. */
+    }
+
+blockquote {
+    display: block;
+    /* Diferença entre display:none e visibility:hidden */
+    /* O display:none além de sumir sus estrutura também desaparece */
+    /* Já o visibility:hidden apenas seu conteúdo desaparece, sua estrutura não. */
+}
